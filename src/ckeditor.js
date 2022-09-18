@@ -30,10 +30,10 @@ import HtmlComment from '@ckeditor/ckeditor5-html-support/src/htmlcomment.js';
 import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed.js';
 import Image from '@ckeditor/ckeditor5-image/src/image.js';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption.js';
-import ImageInsert from '@ckeditor/ckeditor5-image/src/imageinsert.js';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle.js';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar.js';
+import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload.js';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent.js';
 import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock.js';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic.js';
@@ -104,10 +104,10 @@ Editor.builtinPlugins = [
 	HtmlEmbed,
 	Image,
 	ImageCaption,
-	ImageInsert,
 	ImageResize,
 	ImageStyle,
 	ImageToolbar,
+	ImageUpload,
 	Indent,
 	IndentBlock,
 	Italic,
@@ -172,7 +172,7 @@ Editor.defaultConfig = {
 			'alignment',
 			'insertTable',
 			'|',
-			'imageInsert',
+			'imageUpload',
 			'mediaEmbed',
 			'link',
 			'|',
