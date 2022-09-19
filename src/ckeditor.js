@@ -10,7 +10,6 @@ import AutoLink from '@ckeditor/ckeditor5-link/src/autolink.js';
 import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave.js';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote.js';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js';
-import CKFinderUploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter.js';
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices.js';
 import Code from '@ckeditor/ckeditor5-basic-styles/src/code.js';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock.js';
@@ -48,6 +47,7 @@ import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice.js';
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat.js';
+import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
 import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting.js';
 import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters.js';
 import SpecialCharactersArrows from '@ckeditor/ckeditor5-special-characters/src/specialcharactersarrows.js';
@@ -84,7 +84,6 @@ Editor.builtinPlugins = [
 	Autosave,
 	BlockQuote,
 	Bold,
-	CKFinderUploadAdapter,
 	CloudServices,
 	Code,
 	CodeBlock,
@@ -122,6 +121,7 @@ Editor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	RemoveFormat,
+	SimpleUploadAdapter,
 	SourceEditing,
 	SpecialCharacters,
 	SpecialCharactersArrows,
