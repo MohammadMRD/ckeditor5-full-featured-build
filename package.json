@@ -46,6 +46,7 @@
     "@ckeditor/ckeditor5-upload": "^35.1.0",
     "@ckeditor/ckeditor5-watchdog": "^35.1.0",
     "@ckeditor/ckeditor5-word-count": "^35.1.0",
+    "ckeditor5-direction": "^1.0.1",
     "css-loader": "^5.2.7",
     "postcss": "^8.4.16",
     "postcss-loader": "^4.3.0",

@@ -15,6 +15,7 @@ import Code from '@ckeditor/ckeditor5-basic-styles/src/code.js';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock.js';
 import DataFilter from '@ckeditor/ckeditor5-html-support/src/datafilter.js';
 import DataSchema from '@ckeditor/ckeditor5-html-support/src/dataschema.js';
+import Direction from 'ckeditor5-direction/src/direction';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
 import FindAndReplace from '@ckeditor/ckeditor5-find-and-replace/src/findandreplace.js';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor.js';
@@ -89,6 +90,7 @@ Editor.builtinPlugins = [
 	CodeBlock,
 	DataFilter,
 	DataSchema,
+	Direction,
 	Essentials,
 	FindAndReplace,
 	FontBackgroundColor,
@@ -170,6 +172,7 @@ Editor.defaultConfig = {
 			'outdent',
 			'indent',
 			'alignment',
+			'direction',
 			'insertTable',
 			'|',
 			'imageInsert',
